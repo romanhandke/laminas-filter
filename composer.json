@@ -33,6 +33,7 @@
     "require-dev": {
         "doctrine/instantiator": "1.0.5",
         "fabpot/php-cs-fixer": "1.7.*",
+        "laminas/laminas-config": "2.3.8",
         "laminas/laminas-crypt": "~2.3.8.0",
         "laminas/laminas-loader": "^2.6",
         "laminas/laminas-servicemanager": "~2.3.8.0",
