@@ -11,7 +11,7 @@ namespace LaminasTest\Filter\Compress;
 use Laminas\Filter\Compress\Bz2 as Bz2Compression;
 
 /**
- * @group      Zend_Filter
+ * @group      Laminas_Filter
  */
 class Bz2Test extends \PHPUnit_Framework_TestCase
 {

@@ -11,7 +11,7 @@ namespace LaminasTest\Filter\File;
 use Laminas\Filter\File\Rename as FileRename;
 
 /**
- * @group      Zend_Filter
+ * @group      Laminas_Filter
  */
 class RenameTest extends \PHPUnit_Framework_TestCase
 {

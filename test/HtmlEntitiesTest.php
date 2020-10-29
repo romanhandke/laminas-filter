@@ -13,7 +13,7 @@ use Laminas\Filter\Exception;
 use Laminas\Stdlib\ErrorHandler;
 
 /**
- * @group      Zend_Filter
+ * @group      Laminas_Filter
  */
 class HtmlEntitiesTest extends \PHPUnit_Framework_TestCase
 {

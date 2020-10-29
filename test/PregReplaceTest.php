@@ -12,7 +12,7 @@ use Laminas\Filter\PregReplace as PregReplaceFilter;
 /**
  * Test class for Laminas\Filter\PregReplace.
  *
- * @group Zend_Filter
+ * @group Laminas_Filter
  */
 class PregReplaceTest extends \PHPUnit_Framework_TestCase
 {

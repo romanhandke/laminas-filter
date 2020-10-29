@@ -11,7 +11,7 @@ namespace LaminasTest\Filter;
 use Laminas\Filter\Boolean as BooleanFilter;
 
 /**
- * @group      Zend_Filter
+ * @group      Laminas_Filter
  */
 class BooleanTest extends \PHPUnit_Framework_TestCase
 {

@@ -11,7 +11,7 @@ namespace LaminasTest\Filter;
 use Laminas\Filter\Digits as DigitsFilter;
 
 /**
- * @group      Zend_Filter
+ * @group      Laminas_Filter
  */
 class DigitsTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,7 +23,7 @@ class DigitsTest extends \PHPUnit_Framework_TestCase
     protected static $_unicodeEnabled;
 
     /**
-     * Creates a new Zend_Filter_Digits object for each test method
+     * Creates a new Laminas_Filter_Digits object for each test method
      *
      * @return void
      */
@@ -47,7 +47,7 @@ class DigitsTest extends \PHPUnit_Framework_TestCase
             // Filter for the value with mbstring
             /**
              * The first element of $valuesExpected contains multibyte digit characters.
-             *   But , Zend_Filter_Digits is expected to return only singlebyte digits.
+             *   But , Laminas_Filter_Digits is expected to return only singlebyte digits.
              *
              * The second contains multibyte or singebyte space, and also alphabet.
              * The third  contains various multibyte characters.

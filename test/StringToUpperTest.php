@@ -11,19 +11,19 @@ namespace LaminasTest\Filter;
 use Laminas\Filter\StringToUpper as StringToUpperFilter;
 
 /**
- * @group      Zend_Filter
+ * @group      Laminas_Filter
  */
 class StringToUpperTest extends \PHPUnit_Framework_TestCase
 {
     /**
-     * Zend_Filter_StringToLower object
+     * Laminas_Filter_StringToLower object
      *
      * @var StringToUpperFilter
      */
     protected $_filter;
 
     /**
-     * Creates a new Zend_Filter_StringToUpper object for each test method
+     * Creates a new Laminas_Filter_StringToUpper object for each test method
      *
      * @return void
      */

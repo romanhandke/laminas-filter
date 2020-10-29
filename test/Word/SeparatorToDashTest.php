@@ -13,7 +13,7 @@ use Laminas\Filter\Word\SeparatorToDash as SeparatorToDashFilter;
 /**
  * Test class for Laminas\Filter\Word\SeparatorToDash.
  *
- * @group      Zend_Filter
+ * @group      Laminas_Filter
  */
 class SeparatorToDashTest extends \PHPUnit_Framework_TestCase
 {

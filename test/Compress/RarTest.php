@@ -11,7 +11,7 @@ namespace LaminasTest\Filter\Compress;
 use Laminas\Filter\Compress\Rar as RarCompression;
 
 /**
- * @group      Zend_Filter
+ * @group      Laminas_Filter
  */
 class RarTest extends \PHPUnit_Framework_TestCase
 {

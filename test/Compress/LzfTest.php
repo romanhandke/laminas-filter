@@ -11,7 +11,7 @@ namespace LaminasTest\Filter\Compress;
 use Laminas\Filter\Compress\Lzf as LzfCompression;
 
 /**
- * @group      Zend_Filter
+ * @group      Laminas_Filter
  */
 class LzfTest extends \PHPUnit_Framework_TestCase
 {

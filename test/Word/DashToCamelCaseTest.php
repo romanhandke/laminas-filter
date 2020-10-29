@@ -13,7 +13,7 @@ use Laminas\Filter\Word\DashToCamelCase as DashToCamelCaseFilter;
 /**
  * Test class for Laminas\Filter\Word\DashToCamelCase.
  *
- * @group      Zend_Filter
+ * @group      Laminas_Filter
  */
 class DashToCamelCaseTest extends \PHPUnit_Framework_TestCase
 {

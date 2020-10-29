@@ -11,7 +11,7 @@ namespace LaminasTest\Filter;
 use Laminas\Filter\Int as IntFilter;
 
 /**
- * @group      Zend_Filter
+ * @group      Laminas_Filter
  */
 class IntTest extends \PHPUnit_Framework_TestCase
 {

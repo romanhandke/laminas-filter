@@ -12,7 +12,7 @@ use Laminas\Filter\Compress\Tar as TarCompression;
 use Laminas\Filter\Exception\ExtensionNotLoadedException;
 
 /**
- * @group      Zend_Filter
+ * @group      Laminas_Filter
  */
 class TarLoadArchiveTarTest extends \PHPUnit_Framework_TestCase
 {

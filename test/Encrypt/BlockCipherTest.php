@@ -12,7 +12,7 @@ use Laminas\Filter\Encrypt\BlockCipher as BlockCipherEncryption;
 use Laminas\Filter\Exception;
 
 /**
- * @group      Zend_Filter
+ * @group      Laminas_Filter
  */
 class BlockCipherTest extends \PHPUnit_Framework_TestCase
 {

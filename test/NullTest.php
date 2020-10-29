@@ -11,7 +11,7 @@ namespace LaminasTest\Filter;
 use Laminas\Filter\Null as NullFilter;
 
 /**
- * @group      Zend_Filter
+ * @group      Laminas_Filter
  */
 class NullTest extends \PHPUnit_Framework_TestCase
 {

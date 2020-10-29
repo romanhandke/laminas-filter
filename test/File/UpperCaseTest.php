@@ -11,7 +11,7 @@ namespace LaminasTest\Filter\File;
 use Laminas\Filter\File\UpperCase as FileUpperCase;
 
 /**
- * @group      Zend_Filter
+ * @group      Laminas_Filter
  */
 class UpperCaseTest extends \PHPUnit_Framework_TestCase
 {

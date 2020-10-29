@@ -13,7 +13,7 @@ use Laminas\Filter\Word\DashToUnderscore as DashToUnderscoreFilter;
 /**
  * Test class for Laminas\Filter\Word\DashToUnderscore.
  *
- * @group      Zend_Filter
+ * @group      Laminas_Filter
  */
 class DashToUnderscoreTest extends \PHPUnit_Framework_TestCase
 {

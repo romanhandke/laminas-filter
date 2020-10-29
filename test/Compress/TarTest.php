@@ -12,7 +12,7 @@ use Laminas\Filter\Compress\Tar as TarCompression;
 use Laminas\Loader\StandardAutoloader;
 
 /**
- * @group      Zend_Filter
+ * @group      Laminas_Filter
  */
 class TarTest extends \PHPUnit_Framework_TestCase
 {

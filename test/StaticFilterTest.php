@@ -12,7 +12,7 @@ use Laminas\Filter\StaticFilter;
 use Laminas\Filter\FilterPluginManager;
 
 /**
- * @group      Zend_Filter
+ * @group      Laminas_Filter
  */
 class StaticFilterTest extends \PHPUnit_Framework_TestCase
 {

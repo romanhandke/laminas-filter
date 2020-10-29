@@ -11,7 +11,7 @@ namespace LaminasTest\Filter\File;
 use Laminas\Filter\File\RenameUpload as FileRenameUpload;
 
 /**
- * @group      Zend_Filter
+ * @group      Laminas_Filter
  */
 class RenameUploadTest extends \PHPUnit_Framework_TestCase
 {

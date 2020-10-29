@@ -11,7 +11,7 @@ namespace LaminasTest\Filter;
 use Laminas\Filter\Decompress as DecompressFilter;
 
 /**
- * @group      Zend_Filter
+ * @group      Laminas_Filter
  */
 class DecompressTest extends \PHPUnit_Framework_TestCase
 {

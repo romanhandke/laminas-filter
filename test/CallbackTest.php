@@ -11,7 +11,7 @@ namespace LaminasTest\Filter;
 use Laminas\Filter\Callback as CallbackFilter;
 
 /**
- * @group      Zend_Filter
+ * @group      Laminas_Filter
  */
 class CallbackTest extends \PHPUnit_Framework_TestCase
 {

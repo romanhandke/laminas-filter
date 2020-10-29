@@ -11,7 +11,7 @@ namespace LaminasTest\Filter;
 use Laminas\Filter\UriNormalize;
 
 /**
- * @group      Zend_Filter
+ * @group      Laminas_Filter
  */
 class UriNormalizeTest extends \PHPUnit_Framework_TestCase
 {

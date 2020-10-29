@@ -10,7 +10,7 @@ namespace LaminasTest\Filter;
 use Laminas\Filter\BaseName as BaseNameFilter;
 
 /**
- * @group Zend_Filter
+ * @group Laminas_Filter
  */
 class BaseNameTest extends \PHPUnit_Framework_TestCase
 {

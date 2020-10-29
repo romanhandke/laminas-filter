@@ -12,7 +12,7 @@ use Laminas\Filter\FilterChain;
 use Laminas\Filter\AbstractFilter;
 
 /**
- * @group      Zend_Filter
+ * @group      Laminas_Filter
  */
 class FilterChainTest extends \PHPUnit_Framework_TestCase
 {

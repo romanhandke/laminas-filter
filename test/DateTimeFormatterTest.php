@@ -12,7 +12,7 @@ use Laminas\Filter\DateTimeFormatter;
 use DateTime;
 
 /**
- * @group      Zend_Filter
+ * @group      Laminas_Filter
  */
 class DateTimeFormatterTest extends \PHPUnit_Framework_TestCase
 {

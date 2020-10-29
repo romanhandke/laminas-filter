@@ -11,7 +11,7 @@ namespace LaminasTest\Filter;
 use Laminas\Filter\Encrypt as EncryptFilter;
 
 /**
- * @group      Zend_Filter
+ * @group      Laminas_Filter
  */
 class EncryptTest extends \PHPUnit_Framework_TestCase
 {

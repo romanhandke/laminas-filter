@@ -13,7 +13,7 @@ use Laminas\Filter\Word\SeparatorToSeparator as SeparatorToSeparatorFilter;
 /**
  * Test class for Laminas\Filter\Word\SeparatorToSeparator.
  *
- * @group      Zend_Filter
+ * @group      Laminas_Filter
  */
 class SeparatorToSeparatorTest extends \PHPUnit_Framework_TestCase
 {

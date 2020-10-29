@@ -14,7 +14,7 @@ use Laminas\Filter\FilterPluginManager;
 /**
  * Test class for Laminas\Filter\Inflector.
  *
- * @group      Zend_Filter
+ * @group      Laminas_Filter
  */
 class InflectorTest extends \PHPUnit_Framework_TestCase
 {
@@ -362,7 +362,7 @@ class InflectorTest extends \PHPUnit_Framework_TestCase
     /**
      * Added str_replace('\\', '\\\\', ..) to all processedParts values to disable backreferences
      *
-     * @issue ZF-2538 Zend_Filter_Inflector::filter() fails with all numeric folder on Windows
+     * @issue ZF-2538 Laminas_Filter_Inflector::filter() fails with all numeric folder on Windows
      */
     public function testCheckInflectorWithPregBackreferenceLikeParts()
     {

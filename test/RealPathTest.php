@@ -11,7 +11,7 @@ namespace LaminasTest\Filter;
 use Laminas\Filter\RealPath as RealPathFilter;
 
 /**
- * @group      Zend_Filter
+ * @group      Laminas_Filter
  */
 class RealPathTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,14 +23,14 @@ class RealPathTest extends \PHPUnit_Framework_TestCase
     protected $_filesPath;
 
     /**
-     * Zend_Filter_Basename object
+     * Laminas_Filter_Basename object
      *
      * @var RealPathFilter
      */
     protected $_filter;
 
     /**
-     * Creates a new Zend_Filter_Basename object for each test method
+     * Creates a new Laminas_Filter_Basename object for each test method
      *
      * @return void
      */

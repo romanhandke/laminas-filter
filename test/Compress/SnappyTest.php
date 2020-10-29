@@ -11,7 +11,7 @@ namespace LaminasTest\Filter\Compress;
 use Laminas\Filter\Compress\Snappy as SnappyCompression;
 
 /**
- * @group      Zend_Filter
+ * @group      Laminas_Filter
  */
 class SnappyTest extends \PHPUnit_Framework_TestCase
 {

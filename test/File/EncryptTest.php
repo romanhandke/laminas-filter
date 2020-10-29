@@ -11,7 +11,7 @@ use Laminas\Filter\File\Encrypt as FileEncrypt;
 use Laminas\Filter\File\Decrypt as FileDecrypt;
 
 /**
- * @group Zend_Filter
+ * @group Laminas_Filter
  */
 class EncryptTest extends \PHPUnit_Framework_TestCase
 {

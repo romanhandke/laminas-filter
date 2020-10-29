@@ -11,7 +11,7 @@ namespace LaminasTest\Filter\Compress;
 use Laminas\Filter\Compress\Gz as GzCompression;
 
 /**
- * @group      Zend_Filter
+ * @group      Laminas_Filter
  */
 class GzTest extends \PHPUnit_Framework_TestCase
 {

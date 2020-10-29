@@ -13,7 +13,7 @@ use Laminas\Filter\Word\UnderscoreToSeparator as UnderscoreToSeparatorFilter;
 /**
  * Test class for Laminas\Filter\Word\UnderscoreToSeparator.
  *
- * @group      Zend_Filter
+ * @group      Laminas_Filter
  */
 class UnderscoreToSeparatorTest extends \PHPUnit_Framework_TestCase
 {

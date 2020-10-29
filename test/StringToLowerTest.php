@@ -11,19 +11,19 @@ namespace LaminasTest\Filter;
 use Laminas\Filter\StringToLower as StringToLowerFilter;
 
 /**
- * @group      Zend_Filter
+ * @group      Laminas_Filter
  */
 class StringToLowerTest extends \PHPUnit_Framework_TestCase
 {
     /**
-     * Zend_Filter_StringToLower object
+     * Laminas_Filter_StringToLower object
      *
      * @var StringToLowerFilter
      */
     protected $_filter;
 
     /**
-     * Creates a new Zend_Filter_StringToLower object for each test method
+     * Creates a new Laminas_Filter_StringToLower object for each test method
      *
      * @return void
      */

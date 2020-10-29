@@ -11,7 +11,7 @@ namespace LaminasTest\Filter;
 use Laminas\Filter\FilterPluginManager;
 
 /**
- * @group      Zend_Filter
+ * @group      Laminas_Filter
  */
 class FilterPluginManagerTest extends \PHPUnit_Framework_TestCase
 {

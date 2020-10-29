@@ -13,7 +13,7 @@ use Laminas\Filter\Word\CamelCaseToSeparator as CamelCaseToSeparatorFilter;
 /**
  * Test class for Laminas\Filter\Word\CamelCaseToSeparator.
  *
- * @group      Zend_Filter
+ * @group      Laminas_Filter
  */
 class CamelCaseToSeparatorTest extends \PHPUnit_Framework_TestCase
 {

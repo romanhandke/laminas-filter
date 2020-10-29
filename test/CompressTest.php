@@ -11,7 +11,7 @@ namespace LaminasTest\Filter;
 use Laminas\Filter\Compress as CompressFilter;
 
 /**
- * @group      Zend_Filter
+ * @group      Laminas_Filter
  */
 class CompressTest extends \PHPUnit_Framework_TestCase
 {

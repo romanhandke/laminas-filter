@@ -13,7 +13,7 @@ use Laminas\Filter\Word\CamelCaseToDash as CamelCaseToDashFilter;
 /**
  * Test class for Laminas\Filter\Word\CamelCaseToDash.
  *
- * @group      Zend_Filter
+ * @group      Laminas_Filter
  */
 class CamelCaseToDashTest extends \PHPUnit_Framework_TestCase
 {

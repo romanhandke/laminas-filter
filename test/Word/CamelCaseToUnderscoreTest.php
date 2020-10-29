@@ -13,7 +13,7 @@ use Laminas\Filter\Word\CamelCaseToUnderscore as CamelCaseToUnderscoreFilter;
 /**
  * Test class for CamelCaseToUnderscoreFilter.
  *
- * @group      Zend_Filter
+ * @group      Laminas_Filter
  */
 class CamelCaseToUnderscoreTest extends \PHPUnit_Framework_TestCase
 {

@@ -13,7 +13,7 @@ use Laminas\Filter\Encrypt\Openssl as OpensslEncryption;
 /**
  * @copyright  Copyright (c) 2005-2015 Zend Technologies USA Inc. (http://www.zend.com)
  * @license    http://framework.zend.com/license/new-bsd     New BSD License
- * @group      Zend_Filter
+ * @group      Laminas_Filter
  */
 class OpensslTest extends \PHPUnit_Framework_TestCase
 {

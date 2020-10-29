@@ -11,7 +11,7 @@ namespace LaminasTest\Filter;
 use Laminas\Filter\Decrypt as DecryptFilter;
 
 /**
- * @group      Zend_Filter
+ * @group      Laminas_Filter
  */
 class DecryptTest extends \PHPUnit_Framework_TestCase
 {

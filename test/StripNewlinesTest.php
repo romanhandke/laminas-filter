@@ -10,7 +10,7 @@ namespace LaminasTest\Filter;
 use Laminas\Filter\StripNewlines as StripNewlinesFilter;
 
 /**
- * @group Zend_Filter
+ * @group Laminas_Filter
  */
 class StripNewlinesTest extends \PHPUnit_Framework_TestCase
 {

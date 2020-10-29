@@ -11,7 +11,7 @@ namespace LaminasTest\Filter\File;
 use Laminas\Filter\File\LowerCase as FileLowerCase;
 
 /**
- * @group      Zend_Filter
+ * @group      Laminas_Filter
  */
 class LowerCaseTest extends \PHPUnit_Framework_TestCase
 {

@@ -11,7 +11,7 @@ namespace LaminasTest\Filter;
 use Laminas\Filter\Dir as DirFilter;
 
 /**
- * @group      Zend_Filter
+ * @group      Laminas_Filter
  */
 class DirTest extends \PHPUnit_Framework_TestCase
 {
