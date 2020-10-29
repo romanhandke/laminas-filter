@@ -5,7 +5,7 @@
  * @copyright https://github.com/laminas/laminas-filter/blob/master/COPYRIGHT.md
  * @license   https://github.com/laminas/laminas-filter/blob/master/LICENSE.md New BSD License
  */
-namespace ZendTest\Filter\File;
+namespace LaminasTest\Filter\File;
 
 use Laminas\Filter\File\Encrypt as FileEncrypt;
 use Laminas\Filter\File\Decrypt as FileDecrypt;

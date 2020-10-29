@@ -6,7 +6,7 @@
  * @license   https://github.com/laminas/laminas-filter/blob/master/LICENSE.md New BSD License
  */
 
-namespace ZendTest\Filter;
+namespace LaminasTest\Filter;
 
 use Laminas\Filter\Decrypt as DecryptFilter;
 
@@ -120,7 +120,7 @@ d/fxzPfuO/bLpADozTAnYT9Hu3wPrQVLeAfCp0ojqH7DYg==
         $this->assertEquals('BlockCipher', $filter->getAdapter());
 
         $this->setExpectedException('\Laminas\Filter\Exception\InvalidArgumentException', 'does not implement');
-        $filter->setAdapter('\\ZendTest\\Filter\\TestAdapter');
+        $filter->setAdapter('\\LaminasTest\\Filter\\TestAdapter');
     }
 
     /**

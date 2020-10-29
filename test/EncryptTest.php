@@ -6,7 +6,7 @@
  * @license   https://github.com/laminas/laminas-filter/blob/master/LICENSE.md New BSD License
  */
 
-namespace ZendTest\Filter;
+namespace LaminasTest\Filter;
 
 use Laminas\Filter\Encrypt as EncryptFilter;
 
@@ -130,7 +130,7 @@ PIDs9E7uuizAKDhRRRvho8BS
         $this->assertEquals('BlockCipher', $filter->getAdapter());
 
         $this->setExpectedException('Laminas\Filter\Exception\InvalidArgumentException', 'does not implement');
-        $filter->setAdapter('\ZendTest\Filter\TestAdapter2');
+        $filter->setAdapter('\LaminasTest\Filter\TestAdapter2');
     }
 
     /**

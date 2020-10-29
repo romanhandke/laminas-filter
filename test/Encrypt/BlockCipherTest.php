@@ -6,7 +6,7 @@
  * @license   https://github.com/laminas/laminas-filter/blob/master/LICENSE.md New BSD License
  */
 
-namespace ZendTest\Filter\Encrypt;
+namespace LaminasTest\Filter\Encrypt;
 
 use Laminas\Filter\Encrypt\BlockCipher as BlockCipherEncryption;
 use Laminas\Filter\Exception;
