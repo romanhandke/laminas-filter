@@ -37,7 +37,8 @@
         "laminas/laminas-uri": "~2.3.8.0",
         "phpunit/phpunit": "~4.0",
         "satooshi/php-coveralls": "~2.0",
-        "doctrine/instantiator": "1.0.5"
+        "doctrine/instantiator": "1.0.5",
+        "phpdocumentor/reflection-docblock": "~4.0"
     },
     "suggest": {
         "laminas/laminas-crypt": "Laminas\\Crypt component",
