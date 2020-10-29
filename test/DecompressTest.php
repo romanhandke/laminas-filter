@@ -2,6 +2,7 @@
 
 /**
  * @see       https://github.com/laminas/laminas-filter for the canonical source repository
+ *
  * @copyright https://github.com/laminas/laminas-filter/blob/master/COPYRIGHT.md
  * @license   https://github.com/laminas/laminas-filter/blob/master/LICENSE.md New BSD License
  */
@@ -24,15 +25,13 @@ class DecompressTest extends \PHPUnit_Framework_TestCase
 
     public function tearDown()
     {
-        if (file_exists(__DIR__ . '/../_files/compressed.bz2')) {
-            unlink(__DIR__ . '/../_files/compressed.bz2');
+        if (file_exists(__DIR__.'/_files/compressed.bz2')) {
+            unlink(__DIR__.'/_files/compressed.bz2');
         }
     }
 
     /**
-     * Basic usage
-     *
-     * @return void
+     * Basic usage.
      */
     public function testBasicUsage()
     {
@@ -47,14 +46,12 @@ class DecompressTest extends \PHPUnit_Framework_TestCase
     }
 
     /**
-     * Setting Archive
-     *
-     * @return void
+     * Setting Archive.
      */
     public function testCompressToFile()
     {
         $filter   = new DecompressFilter('bz2');
-        $archive = __DIR__ . '/../_files/compressed.bz2';
+        $archive = __DIR__.'/_files/compressed.bz2';
         $filter->setArchive($archive);
 
         $content = $filter->compress('compress me');
@@ -71,14 +68,12 @@ class DecompressTest extends \PHPUnit_Framework_TestCase
     }
 
     /**
-     * Basic usage
-     *
-     * @return void
+     * Basic usage.
      */
     public function testDecompressArchive()
     {
         $filter   = new DecompressFilter('bz2');
-        $archive = __DIR__ . '/../_files/compressed.bz2';
+        $archive = __DIR__.'/_files/compressed.bz2';
         $filter->setArchive($archive);
 
         $content = $filter->compress('compress me');
@@ -92,7 +87,7 @@ class DecompressTest extends \PHPUnit_Framework_TestCase
     public function testFilterMethodProxiesToDecompress()
     {
         $filter   = new DecompressFilter('bz2');
-        $archive = __DIR__ . '/../_files/compressed.bz2';
+        $archive = __DIR__.'/_files/compressed.bz2';
         $filter->setArchive($archive);
 
         $content = $filter->compress('compress me');
@@ -110,14 +105,13 @@ class DecompressTest extends \PHPUnit_Framework_TestCase
             array(new \stdClass()),
             array(array(
                 'decompress me',
-                'decompress me too, please'
-            ))
+                'decompress me too, please',
+            )),
         );
     }
 
     /**
      * @dataProvider returnUnfilteredDataProvider
-     * @return void
      */
     public function testReturnUnfiltered($input)
     {

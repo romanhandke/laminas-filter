@@ -2,6 +2,7 @@
 
 /**
  * @see       https://github.com/laminas/laminas-filter for the canonical source repository
+ *
  * @copyright https://github.com/laminas/laminas-filter/blob/master/COPYRIGHT.md
  * @license   https://github.com/laminas/laminas-filter/blob/master/LICENSE.md New BSD License
  */
@@ -24,15 +25,13 @@ class CompressTest extends \PHPUnit_Framework_TestCase
 
     public function tearDown()
     {
-        if (file_exists(__DIR__ . '/../_files/compressed.bz2')) {
-            unlink(__DIR__ . '/../_files/compressed.bz2');
+        if (file_exists(__DIR__.'/_files/compressed.bz2')) {
+            unlink(__DIR__.'/_files/compressed.bz2');
         }
     }
 
     /**
-     * Basic usage
-     *
-     * @return void
+     * Basic usage.
      */
     public function testBasicUsage()
     {
@@ -47,9 +46,7 @@ class CompressTest extends \PHPUnit_Framework_TestCase
     }
 
     /**
-     * Setting Options
-     *
-     * @return void
+     * Setting Options.
      */
     public function testGetSetAdapterOptionsInConstructor()
     {
@@ -58,7 +55,7 @@ class CompressTest extends \PHPUnit_Framework_TestCase
             'options' => array(
                 'blocksize' => 6,
                 'archive'   => 'test.txt',
-            )
+            ),
         ));
 
         $this->assertEquals(
@@ -72,9 +69,7 @@ class CompressTest extends \PHPUnit_Framework_TestCase
     }
 
     /**
-     * Setting Options through constructor
-     *
-     * @return void
+     * Setting Options through constructor.
      */
     public function testGetSetAdapterOptions()
     {
@@ -93,9 +88,7 @@ class CompressTest extends \PHPUnit_Framework_TestCase
     }
 
     /**
-     * Setting Blocksize
-     *
-     * @return void
+     * Setting Blocksize.
      */
     public function testGetSetBlocksize()
     {
@@ -109,9 +102,7 @@ class CompressTest extends \PHPUnit_Framework_TestCase
     }
 
     /**
-     * Setting Archive
-     *
-     * @return void
+     * Setting Archive.
      */
     public function testGetSetArchive()
     {
@@ -123,14 +114,12 @@ class CompressTest extends \PHPUnit_Framework_TestCase
     }
 
     /**
-     * Setting Archive
-     *
-     * @return void
+     * Setting Archive.
      */
     public function testCompressToFile()
     {
         $filter   = new CompressFilter('bz2');
-        $archive = __DIR__ . '/../_files/compressed.bz2';
+        $archive = __DIR__.'/_files/compressed.bz2';
         $filter->setArchive($archive);
 
         $content = $filter('compress me');
@@ -147,9 +136,7 @@ class CompressTest extends \PHPUnit_Framework_TestCase
     }
 
     /**
-     * testing toString
-     *
-     * @return void
+     * testing toString.
      */
     public function testToString()
     {
@@ -158,9 +145,7 @@ class CompressTest extends \PHPUnit_Framework_TestCase
     }
 
     /**
-     * testing getAdapter
-     *
-     * @return void
+     * testing getAdapter.
      */
     public function testGetAdapter()
     {
@@ -171,9 +156,7 @@ class CompressTest extends \PHPUnit_Framework_TestCase
     }
 
     /**
-     * Setting Adapter
-     *
-     * @return void
+     * Setting Adapter.
      */
     public function testSetAdapter()
     {
@@ -184,7 +167,6 @@ class CompressTest extends \PHPUnit_Framework_TestCase
         $filter = new CompressFilter();
         $this->assertEquals('Gz', $filter->getAdapterName());
 
-
         $filter->setAdapter('\Laminas\Filter\Boolean');
 
         $this->setExpectedException('\Laminas\Filter\Exception\InvalidArgumentException', 'does not implement');
@@ -192,14 +174,12 @@ class CompressTest extends \PHPUnit_Framework_TestCase
     }
 
     /**
-     * Decompress archiv
-     *
-     * @return void
+     * Decompress archiv.
      */
     public function testDecompressArchive()
     {
         $filter   = new CompressFilter('bz2');
-        $archive = __DIR__ . '/../_files/compressed.bz2';
+        $archive = __DIR__.'/_files/compressed.bz2';
         $filter->setArchive($archive);
 
         $content = $filter('compress me');
@@ -211,9 +191,7 @@ class CompressTest extends \PHPUnit_Framework_TestCase
     }
 
     /**
-     * Setting invalid method
-     *
-     * @return void
+     * Setting invalid method.
      */
     public function testInvalidMethod()
     {
@@ -230,14 +208,13 @@ class CompressTest extends \PHPUnit_Framework_TestCase
             array(new \stdClass()),
             array(array(
                 'compress me',
-                'compress me too, please'
-            ))
+                'compress me too, please',
+            )),
         );
     }
 
     /**
      * @dataProvider returnUnfilteredDataProvider
-     * @return void
      */
     public function testReturnUnfiltered($input)
     {
