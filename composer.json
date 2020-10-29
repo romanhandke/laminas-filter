@@ -35,7 +35,7 @@
         "laminas/laminas-servicemanager": "~2.3.8.0",
         "laminas/laminas-uri": "~2.3.8.0",
         "phpunit/phpunit": "~4.0",
-        "satooshi/php-coveralls": "dev-master"
+        "satooshi/php-coveralls": "~2.0"
     },
     "suggest": {
         "laminas/laminas-crypt": "Laminas\\Crypt component",
