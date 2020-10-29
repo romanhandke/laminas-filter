@@ -8,7 +8,7 @@
 
 namespace ZendTest\Filter\Compress;
 
-use Zend\Filter\Compress\Zip as ZipCompression;
+use Laminas\Filter\Compress\Zip as ZipCompression;
 
 /**
  * @group      Zend_Filter
@@ -163,7 +163,7 @@ class ZipTest extends \PHPUnit_Framework_TestCase
         $this->assertEquals('Testfile.txt', $filter->getTarget());
         $this->assertEquals('Testfile.txt', $filter->getOptions('target'));
 
-        $this->setExpectedException('\Zend\Filter\Exception\InvalidArgumentException', 'does not exist');
+        $this->setExpectedException('\Laminas\Filter\Exception\InvalidArgumentException', 'does not exist');
         $filter->setTarget('/unknown/path/to/file.txt');
     }
 
@@ -299,7 +299,7 @@ class ZipTest extends \PHPUnit_Framework_TestCase
     /**
      * @group 6026
      *
-     * @covers \Zend\Filter\Compress\Zip::decompress
+     * @covers \Laminas\Filter\Compress\Zip::decompress
      */
     public function testDecompressWhenNoArchieveInClass()
     {

@@ -8,7 +8,7 @@
 
 namespace ZendTest\Filter;
 
-use Zend\Filter\Callback as CallbackFilter;
+use Laminas\Filter\Callback as CallbackFilter;
 
 /**
  * @group      Zend_Filter

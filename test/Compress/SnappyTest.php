@@ -8,7 +8,7 @@
 
 namespace ZendTest\Filter\Compress;
 
-use Zend\Filter\Compress\Snappy as SnappyCompression;
+use Laminas\Filter\Compress\Snappy as SnappyCompression;
 
 /**
  * @group      Zend_Filter
@@ -80,7 +80,7 @@ class SnappyTest extends \PHPUnit_Framework_TestCase
         $filter = new SnappyCompression();
 
         $this->setExpectedException(
-            'Zend\Filter\Exception\RuntimeException',
+            'Laminas\Filter\Exception\RuntimeException',
             'Error while decompressing.'
         );
 

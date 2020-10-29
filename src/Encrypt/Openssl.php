@@ -6,13 +6,13 @@
  * @license   https://github.com/laminas/laminas-filter/blob/master/LICENSE.md New BSD License
  */
 
-namespace Zend\Filter\Encrypt;
+namespace Laminas\Filter\Encrypt;
 
 use Traversable;
-use Zend\Filter\Compress;
-use Zend\Filter\Decompress;
-use Zend\Filter\Exception;
-use Zend\Stdlib\ArrayUtils;
+use Laminas\Filter\Compress;
+use Laminas\Filter\Decompress;
+use Laminas\Filter\Exception;
+use Laminas\Stdlib\ArrayUtils;
 
 /**
  * Encryption adapter for openssl
@@ -390,7 +390,7 @@ class Openssl implements EncryptionAlgorithmInterface
     }
 
     /**
-     * Defined by Zend\Filter\FilterInterface
+     * Defined by Laminas\Filter\FilterInterface
      *
      * Decrypts $value with the defined settings
      *

@@ -8,7 +8,7 @@
 
 namespace ZendTest\Filter\Compress;
 
-use Zend\Filter\Compress\Bz2 as Bz2Compression;
+use Laminas\Filter\Compress\Bz2 as Bz2Compression;
 
 /**
  * @group      Zend_Filter
@@ -92,7 +92,7 @@ class Bz2Test extends \PHPUnit_Framework_TestCase
         $filter->setBlocksize(6);
         $this->assertEquals(6, $filter->getOptions('blocksize'));
 
-        $this->setExpectedException('Zend\Filter\Exception\InvalidArgumentException', 'must be between');
+        $this->setExpectedException('Laminas\Filter\Exception\InvalidArgumentException', 'must be between');
         $filter->setBlocksize(15);
     }
 

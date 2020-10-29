@@ -8,7 +8,7 @@
 
 namespace ZendTest\Filter;
 
-use Zend\Filter\UriNormalize;
+use Laminas\Filter\UriNormalize;
 
 /**
  * @group      Zend_Filter

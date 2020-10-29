@@ -8,7 +8,7 @@
 
 namespace ZendTest\Filter;
 
-use Zend\Filter\Digits as DigitsFilter;
+use Laminas\Filter\Digits as DigitsFilter;
 
 /**
  * @group      Zend_Filter

@@ -8,8 +8,8 @@
 
 namespace ZendTest\Filter\Compress;
 
-use Zend\Filter\Compress\Tar as TarCompression;
-use Zend\Loader\StandardAutoloader;
+use Laminas\Filter\Compress\Tar as TarCompression;
+use Laminas\Loader\StandardAutoloader;
 
 /**
  * @group      Zend_Filter
@@ -169,7 +169,7 @@ class TarTest extends \PHPUnit_Framework_TestCase
         $this->assertEquals('Testfile.txt', $filter->getTarget());
         $this->assertEquals('Testfile.txt', $filter->getOptions('target'));
 
-        $this->setExpectedException('\Zend\Filter\Exception\InvalidArgumentException', 'does not exist');
+        $this->setExpectedException('\Laminas\Filter\Exception\InvalidArgumentException', 'does not exist');
         $filter->setTarget('/unknown/path/to/file.txt');
     }
 

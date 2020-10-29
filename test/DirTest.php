@@ -8,7 +8,7 @@
 
 namespace ZendTest\Filter;
 
-use Zend\Filter\Dir as DirFilter;
+use Laminas\Filter\Dir as DirFilter;
 
 /**
  * @group      Zend_Filter

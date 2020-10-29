@@ -8,7 +8,7 @@
 
 namespace ZendTest\Filter;
 
-use Zend\Filter\StripTags as StripTagsFilter;
+use Laminas\Filter\StripTags as StripTagsFilter;
 
 /**
  * @group      Zend_Filter

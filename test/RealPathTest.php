@@ -8,7 +8,7 @@
 
 namespace ZendTest\Filter;
 
-use Zend\Filter\RealPath as RealPathFilter;
+use Laminas\Filter\RealPath as RealPathFilter;
 
 /**
  * @group      Zend_Filter

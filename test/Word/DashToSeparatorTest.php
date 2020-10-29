@@ -8,10 +8,10 @@
 
 namespace ZendTest\Filter\Word;
 
-use Zend\Filter\Word\DashToSeparator as DashToSeparatorFilter;
+use Laminas\Filter\Word\DashToSeparator as DashToSeparatorFilter;
 
 /**
- * Test class for Zend\Filter\Word\DashToSeparator.
+ * Test class for Laminas\Filter\Word\DashToSeparator.
  *
  * @group      Zend_Filter
  */

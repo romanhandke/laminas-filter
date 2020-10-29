@@ -8,7 +8,7 @@
 
 namespace ZendTest\Filter;
 
-use Zend\Filter\Null as NullFilter;
+use Laminas\Filter\Null as NullFilter;
 
 /**
  * @group      Zend_Filter
@@ -89,7 +89,7 @@ class NullTest extends \PHPUnit_Framework_TestCase
     public function testSettingFalseType()
     {
         $filter = new NullFilter();
-        $this->setExpectedException('\Zend\Filter\Exception\InvalidArgumentException', 'Unknown type value');
+        $this->setExpectedException('\Laminas\Filter\Exception\InvalidArgumentException', 'Unknown type value');
         $filter->setType(true);
     }
 

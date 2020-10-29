@@ -9,10 +9,10 @@
 namespace ZendTest\Filter\Word;
 
 use ReflectionProperty;
-use Zend\Stdlib\StringUtils;
+use Laminas\Stdlib\StringUtils;
 
 /**
- * Test class for Zend\Filter\Word\CamelCaseToSeparator which simulates the
+ * Test class for Laminas\Filter\Word\CamelCaseToSeparator which simulates the
  * PCRE Unicode features disabled
  */
 class CamelCaseToSeparatorNoPcreUnicodeTest extends CamelCaseToSeparatorTest
@@ -25,7 +25,7 @@ class CamelCaseToSeparatorNoPcreUnicodeTest extends CamelCaseToSeparatorTest
             return $this->markTestSkipped('PCRE is not compiled with Unicode support');
         }
 
-        $this->reflection = new ReflectionProperty('Zend\Stdlib\StringUtils', 'hasPcreUnicodeSupport');
+        $this->reflection = new ReflectionProperty('Laminas\Stdlib\StringUtils', 'hasPcreUnicodeSupport');
         $this->reflection->setAccessible(true);
         $this->reflection->setValue(false);
     }

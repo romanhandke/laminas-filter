@@ -8,7 +8,7 @@
 
 namespace ZendTest\Filter\File;
 
-use Zend\Filter\File\RenameUpload;
+use Laminas\Filter\File\RenameUpload;
 
 class RenameUploadMock extends RenameUpload
 {

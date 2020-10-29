@@ -6,10 +6,10 @@
  * @license   https://github.com/laminas/laminas-filter/blob/master/LICENSE.md New BSD License
  */
 
-namespace Zend\Filter;
+namespace Laminas\Filter;
 
 use Traversable;
-use Zend\Stdlib\ArrayUtils;
+use Laminas\Stdlib\ArrayUtils;
 
 class StripTags extends AbstractFilter
 {
@@ -162,7 +162,7 @@ class StripTags extends AbstractFilter
     }
 
     /**
-     * Defined by Zend\Filter\FilterInterface
+     * Defined by Laminas\Filter\FilterInterface
      *
      * If the value provided is non-scalar, the value will remain unfiltered
      *

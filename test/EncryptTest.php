@@ -8,7 +8,7 @@
 
 namespace ZendTest\Filter;
 
-use Zend\Filter\Encrypt as EncryptFilter;
+use Laminas\Filter\Encrypt as EncryptFilter;
 
 /**
  * @group      Zend_Filter
@@ -129,7 +129,7 @@ PIDs9E7uuizAKDhRRRvho8BS
         $filter->setAdapter('BlockCipher');
         $this->assertEquals('BlockCipher', $filter->getAdapter());
 
-        $this->setExpectedException('Zend\Filter\Exception\InvalidArgumentException', 'does not implement');
+        $this->setExpectedException('Laminas\Filter\Exception\InvalidArgumentException', 'does not implement');
         $filter->setAdapter('\ZendTest\Filter\TestAdapter2');
     }
 
@@ -142,7 +142,7 @@ PIDs9E7uuizAKDhRRRvho8BS
             $this->markTestSkipped('Mcrypt extension not installed');
         }
 
-        $this->setExpectedException('\Zend\Filter\Exception\BadMethodCallException', 'Unknown method');
+        $this->setExpectedException('\Laminas\Filter\Exception\BadMethodCallException', 'Unknown method');
         $filter = new EncryptFilter();
         $filter->getUnknownMethod();
     }

@@ -8,10 +8,10 @@
 
 namespace ZendTest\Filter\Word;
 
-use Zend\Filter\Word\UnderscoreToDash as UnderscoreToDashFilter;
+use Laminas\Filter\Word\UnderscoreToDash as UnderscoreToDashFilter;
 
 /**
- * Test class for Zend\Filter\Word\UnderscoreToDash.
+ * Test class for Laminas\Filter\Word\UnderscoreToDash.
  *
  * @group      Zend_Filter
  */

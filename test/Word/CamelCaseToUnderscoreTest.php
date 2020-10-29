@@ -8,7 +8,7 @@
 
 namespace ZendTest\Filter\Word;
 
-use Zend\Filter\Word\CamelCaseToUnderscore as CamelCaseToUnderscoreFilter;
+use Laminas\Filter\Word\CamelCaseToUnderscore as CamelCaseToUnderscoreFilter;
 
 /**
  * Test class for CamelCaseToUnderscoreFilter.

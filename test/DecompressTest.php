@@ -8,7 +8,7 @@
 
 namespace ZendTest\Filter;
 
-use Zend\Filter\Decompress as DecompressFilter;
+use Laminas\Filter\Decompress as DecompressFilter;
 
 /**
  * @group      Zend_Filter

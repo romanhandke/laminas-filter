@@ -7,7 +7,7 @@
  */
 namespace ZendTest\Filter;
 
-use Zend\Filter\StripNewlines as StripNewlinesFilter;
+use Laminas\Filter\StripNewlines as StripNewlinesFilter;
 
 /**
  * @group Zend_Filter

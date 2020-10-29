@@ -8,10 +8,10 @@
 
 namespace ZendTest\Filter\Word;
 
-use Zend\Filter\Word\UnderscoreToCamelCase as UnderscoreToCamelCaseFilter;
+use Laminas\Filter\Word\UnderscoreToCamelCase as UnderscoreToCamelCaseFilter;
 
 /**
- * Test class for Zend\Filter\Word\UnderscoreToCamelCase.
+ * Test class for Laminas\Filter\Word\UnderscoreToCamelCase.
  *
  * @group      Zend_Filter
  */

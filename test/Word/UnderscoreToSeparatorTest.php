@@ -8,10 +8,10 @@
 
 namespace ZendTest\Filter\Word;
 
-use Zend\Filter\Word\UnderscoreToSeparator as UnderscoreToSeparatorFilter;
+use Laminas\Filter\Word\UnderscoreToSeparator as UnderscoreToSeparatorFilter;
 
 /**
- * Test class for Zend\Filter\Word\UnderscoreToSeparator.
+ * Test class for Laminas\Filter\Word\UnderscoreToSeparator.
  *
  * @group      Zend_Filter
  */

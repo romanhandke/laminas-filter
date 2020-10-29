@@ -8,8 +8,8 @@
 
 namespace ZendTest\Filter\Compress;
 
-use Zend\Filter\Compress\Tar as TarCompression;
-use Zend\Filter\Exception\ExtensionNotLoadedException;
+use Laminas\Filter\Compress\Tar as TarCompression;
+use Laminas\Filter\Exception\ExtensionNotLoadedException;
 
 /**
  * @group      Zend_Filter

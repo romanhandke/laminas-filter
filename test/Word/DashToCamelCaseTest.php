@@ -8,10 +8,10 @@
 
 namespace ZendTest\Filter\Word;
 
-use Zend\Filter\Word\DashToCamelCase as DashToCamelCaseFilter;
+use Laminas\Filter\Word\DashToCamelCase as DashToCamelCaseFilter;
 
 /**
- * Test class for Zend\Filter\Word\DashToCamelCase.
+ * Test class for Laminas\Filter\Word\DashToCamelCase.
  *
  * @group      Zend_Filter
  */

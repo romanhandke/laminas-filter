@@ -8,11 +8,11 @@
 
 namespace ZendTest\Filter;
 
-use Zend\Filter\StringTrim;
+use Laminas\Filter\StringTrim;
 use stdClass;
 
 /**
- * @covers \Zend\Filter\StringTrim
+ * @covers \Laminas\Filter\StringTrim
  */
 class StringTrimTest extends \PHPUnit_Framework_TestCase
 {
@@ -22,7 +22,7 @@ class StringTrimTest extends \PHPUnit_Framework_TestCase
     protected $_filter;
 
     /**
-     * Creates a new Zend\Filter\StringTrim object for each test method
+     * Creates a new Laminas\Filter\StringTrim object for each test method
      *
      * @return void
      */

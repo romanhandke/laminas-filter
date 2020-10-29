@@ -8,10 +8,10 @@
 
 namespace ZendTest\Filter\Word;
 
-use Zend\Filter\Word\CamelCaseToSeparator as CamelCaseToSeparatorFilter;
+use Laminas\Filter\Word\CamelCaseToSeparator as CamelCaseToSeparatorFilter;
 
 /**
- * Test class for Zend\Filter\Word\CamelCaseToSeparator.
+ * Test class for Laminas\Filter\Word\CamelCaseToSeparator.
  *
  * @group      Zend_Filter
  */

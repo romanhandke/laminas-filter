@@ -27,7 +27,8 @@
     "require": {
         "php": ">=5.3.23",
         "laminas/laminas-stdlib": "~2.3.8.0",
-        "laminas/laminas-zendframework-bridge": "^1.0"
+        "laminas/laminas-zendframework-bridge": "^1.0",
+        "laminas/laminas-dependency-plugin": "^1.0"
     },
     "require-dev": {
         "fabpot/php-cs-fixer": "1.7.*",
@@ -54,6 +55,6 @@
         }
     },
     "replace": {
-        "zendframework/zend-filter": "~2.3.8.0"
+        "laminas/laminas-filter": "~2.3.8.0"
     }
 }

@@ -7,7 +7,7 @@
  */
 namespace ZendTest\Filter;
 
-use Zend\Filter\BaseName as BaseNameFilter;
+use Laminas\Filter\BaseName as BaseNameFilter;
 
 /**
  * @group Zend_Filter

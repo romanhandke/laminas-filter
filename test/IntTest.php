@@ -8,7 +8,7 @@
 
 namespace ZendTest\Filter;
 
-use Zend\Filter\Int as IntFilter;
+use Laminas\Filter\Int as IntFilter;
 
 /**
  * @group      Zend_Filter
